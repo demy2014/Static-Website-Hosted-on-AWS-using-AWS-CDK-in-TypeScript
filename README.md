@@ -68,25 +68,7 @@ Future Improvements:
 Cost Optimization
 - Enable CloudFront's Lambda@Edge functions to handle edge logic.
 - Consider using Amazon S3 Intelligent-Tiering to reduce storage costs.
-
-
----
-
-### Flowchart:
-
-+---------------------------+    
-|       Website Visitor      |
-+------------+--------------+
-             |
-             v
-+---------------------------+   
-|   CloudFront Distribution  |  <--- (Serve via HTTPS)
-+------------+--------------+
-             |
-             v
-+---------------------------+
-|         S3 Bucket          |  <--- (Website content: index.html)
-+---------------------------+
+------------------------------
 
 Future Improvements:
 1.Security:
