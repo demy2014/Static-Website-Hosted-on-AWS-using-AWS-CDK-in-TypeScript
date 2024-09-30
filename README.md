@@ -57,17 +57,6 @@ This will deploy the S3 bucket, ACM certificate, CloudFront distribution and Rou
 To delete the stack and all associated resources:
 * `cdk destroy --all`
 
-Future Improvements:
-1. Security
- - Add a WAF (Web Application Firewall) to the CloudFront distribution.
- - Enable S3 bucket versioning and server-side encryption (SSE-S3).
-
-2. Observability
- - Add AWS CloudWatch alarms to monitor S3 bucket requests, CloudFront cache hit ratio, and Lambda@Edge logs for deeper insights.
-
-Cost Optimization
-- Enable CloudFront's Lambda@Edge functions to handle edge logic.
-- Consider using Amazon S3 Intelligent-Tiering to reduce storage costs.
 ------------------------------
 
 Future Improvements:
