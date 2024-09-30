@@ -71,6 +71,8 @@ Cost Optimization
 ------------------------------
 
 Future Improvements:
+
+
 1.Security:
 - Implement AWS WAF to block malicious traffic.
 - Enforce SSL/TLS policies on CloudFront.
