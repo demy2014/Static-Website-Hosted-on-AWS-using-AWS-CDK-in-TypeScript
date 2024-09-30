@@ -10,8 +10,6 @@ The price of using this solution depends on the actual usage, and AWS pricing mo
 
 If you don’t have a domain name yet, you’ll need to get one. This code is also prepared for you to already having a [public Route 53 hosted zone](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/CreatingHostedZone.html) with your domain name.
 
-Read more in the code comments - file: [lib/cdk-example-s3-cloudfront-stack.ts](https://github.com/stormit-cloud/cdk-example-s3-cloudfront/blob/main/lib/cdk-example-s3-cloudfront-stack.ts)
-
 ## Prerequisites
 
 - [AWS CDK](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html#getting_started_install)
